@@ -70,7 +70,7 @@
 </ul>
 <h3 id="检验是否安装成功"><a href="#检验是否安装成功" class="headerlink" title="检验是否安装成功"></a>检验是否安装成功</h3><ol>
 <li>win+r进入命令行</li>
-<li>依次输入: node -v后回车, npm -v后回车,  git –version后回车，hexo -v后回车。(-之前都有一个空格，git后面是两个-)</li>
+<li>依次输入: <code>node -v</code>后回车,<code> npm -v</code>后回车, <code> git --version</code>后回车，<code>hexo -v</code>后回车。(-之前都有一个空格)</li>
 <li>若三次回车后均显示版本号则安装成功</li>
 </ol>
 <h2 id="搭建仓库"><a href="#搭建仓库" class="headerlink" title="搭建仓库"></a>搭建仓库</h2><h3 id="github注册账号："><a href="#github注册账号：" class="headerlink" title="github注册账号："></a><a href="https://github.com/">github</a>注册账号：</h3><p>(记住用户名和邮箱，以后你的博客网址应该是：用户名.github.io)</p>
@@ -94,7 +94,7 @@
 </li>
 <li><p>打开github,点击头像选择settings，在左侧选择SSH and GPG keys ,再到右侧选择New ssh key,将复制的内容粘贴到Key里，Title随便写，然后点击Add SSH key。</p>
 </li>
-<li><p>测试ssh是否绑定成功：在git窗口中输入：ssh -T <a href="mailto:&#103;&#x69;&#x74;&#x40;&#x67;&#105;&#x74;&#104;&#x75;&#98;&#x2e;&#99;&#111;&#109;">&#103;&#x69;&#x74;&#x40;&#x67;&#105;&#x74;&#104;&#x75;&#98;&#x2e;&#99;&#111;&#109;</a>后回车显示：Hi 用户名，you’ve successfully ………..即是成功，可能会有warning，不用管。</p>
+<li><p>测试ssh是否绑定成功：在git窗口中输入：<code>ssh -T <a href="mailto:&#103;&#105;&#116;&#64;&#103;&#x69;&#x74;&#x68;&#x75;&#x62;&#x2e;&#x63;&#111;&#109;">&#103;&#105;&#116;&#64;&#103;&#x69;&#x74;&#x68;&#x75;&#x62;&#x2e;&#x63;&#111;&#109;</a></code>后回车显示：Hi 用户名，you’ve successfully ………..即是成功，可能会有warning，不用管。</p>
 </li>
 </ol>
 <h2 id="本地生产博客内容"><a href="#本地生产博客内容" class="headerlink" title="本地生产博客内容"></a>本地生产博客内容</h2><ol>
@@ -107,8 +107,10 @@
 <h2 id="发布博客到互联网"><a href="#发布博客到互联网" class="headerlink" title="发布博客到互联网"></a>发布博客到互联网</h2><ol>
 <li><p>在blog目录下找到_config.yml文件打开，将最后的deploy：type替换成</p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">	type: git</span><br><span class="line">	repository:</span><br><span class="line">	branch: main<span class="comment">//注意冒号均为英文，且冒号后均有一个空格</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>repository: 后面的内容：找到并进入自己所创建的那个仓库，点击Code(绿色的那个)，将https下的那一串复制过来就行了。</p>
+
+<blockquote>
+<p>repository: 后面的内容：找到并进入自己所创建的那个仓库，点击Code(绿色的那个)，将https下的那一串复制过来就行了。</p>
+</blockquote>
 </li>
 <li><p>保存这个文件。</p>
 </li>
