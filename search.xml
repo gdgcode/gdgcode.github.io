@@ -21,6 +21,32 @@
 ]]></content>
   </entry>
   <entry>
+    <title>小王子</title>
+    <url>/2022/07/22/%E5%B0%8F%E7%8E%8B%E5%AD%90/</url>
+    <content><![CDATA[<hr>
+<span id="more"></span>
+
+
+
+
+
+<p><img src="https://git.poker/gdgcode/images/blob/master/picture/image-20220722185409420.6jyeo4q34g00.webp?raw=true" alt="image-20220722185409420"></p>
+<ul>
+<li>“那你可以审判自己，”国王回答说，“这是最难的。审判自己比审判别人难得多。如果你能正确地审判自己，那你就是真正的聪明人。”</li>
+</ul>
+<hr>
+<ul>
+<li>“再见，”狐狸说，“这是我的秘密。它很简单：看东西只有用心才能看得清楚。重要的东西用眼睛是看不见的。”</li>
+</ul>
+]]></content>
+      <categories>
+        <category>小王子</category>
+      </categories>
+      <tags>
+        <tag>小王子</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo+github搭建博客</title>
     <url>/2022/08/02/Hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<p><strong><center>Hexo+github搭建个人博客</center></strong></p>
@@ -68,7 +94,7 @@
 </li>
 <li><p>打开github,点击头像选择settings，在左侧选择SSH and GPG keys ,再到右侧选择New ssh key,将复制的内容粘贴到Key里，Title随便写，然后点击Add SSH key。</p>
 </li>
-<li><p>测试ssh是否绑定成功：在git窗口中输入：<code>ssh -T <a href="mailto:&#103;&#105;&#116;&#64;&#x67;&#x69;&#116;&#104;&#x75;&#98;&#x2e;&#x63;&#x6f;&#109;">&#103;&#105;&#116;&#64;&#x67;&#x69;&#116;&#104;&#x75;&#98;&#x2e;&#x63;&#x6f;&#109;</a></code>后回车显示：Hi 用户名，you’ve successfully ………..即是成功，可能会有warning，不用管。</p>
+<li><p>测试ssh是否绑定成功：在git窗口中输入：<code>ssh -T <a href="mailto:&#103;&#105;&#116;&#64;&#x67;&#x69;&#x74;&#x68;&#x75;&#98;&#46;&#99;&#x6f;&#x6d;">&#103;&#105;&#116;&#64;&#x67;&#x69;&#x74;&#x68;&#x75;&#98;&#46;&#99;&#x6f;&#x6d;</a></code>后回车显示：Hi 用户名，you’ve successfully ………..即是成功，可能会有warning，不用管。</p>
 </li>
 </ol>
 <h2 id="本地生产博客内容"><a href="#本地生产博客内容" class="headerlink" title="本地生产博客内容"></a>本地生产博客内容</h2><ol>
@@ -107,32 +133,6 @@
 ]]></content>
       <tags>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>小王子</title>
-    <url>/2022/07/22/%E5%B0%8F%E7%8E%8B%E5%AD%90/</url>
-    <content><![CDATA[<hr>
-<span id="more"></span>
-
-
-
-
-
-<p><img src="https://git.poker/gdgcode/images/blob/master/picture/image-20220722185409420.6jyeo4q34g00.webp?raw=true" alt="image-20220722185409420"></p>
-<ul>
-<li>“那你可以审判自己，”国王回答说，“这是最难的。审判自己比审判别人难得多。如果你能正确地审判自己，那你就是真正的聪明人。”</li>
-</ul>
-<hr>
-<ul>
-<li>“再见，”狐狸说，“这是我的秘密。它很简单：看东西只有用心才能看得清楚。重要的东西用眼睛是看不见的。”</li>
-</ul>
-]]></content>
-      <categories>
-        <category>小王子</category>
-      </categories>
-      <tags>
-        <tag>小王子</tag>
       </tags>
   </entry>
 </search>
