@@ -48,7 +48,7 @@
 </li>
 <li><p>打开github,点击头像选择settings，在左侧选择SSH and GPG keys ,再到右侧选择New ssh key,将复制的内容粘贴到Key里，Title随便写，然后点击Add SSH key。</p>
 </li>
-<li><p>测试ssh是否绑定成功：在git窗口中输入：<code>ssh -T <a href="mailto:&#x67;&#x69;&#116;&#64;&#x67;&#x69;&#x74;&#104;&#117;&#x62;&#x2e;&#x63;&#x6f;&#x6d;">&#x67;&#x69;&#116;&#64;&#x67;&#x69;&#x74;&#104;&#117;&#x62;&#x2e;&#x63;&#x6f;&#x6d;</a></code>后回车显示：Hi 用户名，you’ve successfully ………..即是成功，可能会有warning，不用管。</p>
+<li><p>测试ssh是否绑定成功：在git窗口中输入：<code>ssh -T <a href="mailto:&#103;&#x69;&#x74;&#64;&#103;&#x69;&#116;&#104;&#x75;&#x62;&#46;&#x63;&#111;&#109;">&#103;&#x69;&#x74;&#64;&#103;&#x69;&#116;&#104;&#x75;&#x62;&#46;&#x63;&#111;&#109;</a></code>后回车显示：Hi 用户名，you’ve successfully ………..即是成功，可能会有warning，不用管。</p>
 </li>
 </ol>
 <h2 id="本地生产博客内容"><a href="#本地生产博客内容" class="headerlink" title="本地生产博客内容"></a>本地生产博客内容</h2><ol>
